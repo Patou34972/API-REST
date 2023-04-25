@@ -3,7 +3,7 @@
 /* eslint-disable prettier/prettier */
 import { Document } from 'mongoose';
 
-export interface Cat extends Document {
+export interface Article extends Document {
   
   readonly name: String,
   readonly description: String,

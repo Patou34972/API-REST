@@ -2,11 +2,11 @@
 /* eslint-disable prettier/prettier */
 import { Model } from 'mongoose';
 import { Injectable, Inject } from '@nestjs/common';
-import { Article } from './entities/article.entity';
+import { Article } from './interfaces/article.interfaces';
 import { CreateArticleDto } from './dto/create-article.dto';
 import { UpdateArticleDto } from './dto/update-article.dto';
 
-// import { UpdateArticleDto } from './dto/update-article.dto';
+
 
 @Injectable()
 export class ArticlesService {
